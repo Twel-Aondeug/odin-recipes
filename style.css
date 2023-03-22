@@ -1,0 +1,80 @@
+html{
+    height:100%
+}
+
+/* index.html */
+
+body.purplebg{
+    background: linear-gradient(#660194, black);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    color:white;
+    font-family: "Luminari";
+    font-size: 50px;
+}
+
+div.recipemenu{
+    text-align: center;
+    color: white;
+    font-family: Luminari;
+    font-size: 20px;
+}
+
+.recipes{
+    display: inline-block;
+    text-align: left;
+}
+
+/* <recipe>.html */
+
+body.redbg{
+    /*background-color:#f54242;*/
+    background-image: linear-gradient(#f54242, #c20404);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.recipeheading{
+    text-align:center;
+    text-decoration: underline;
+    color:white;
+    font-family: Didot;
+    font-size: 50px;
+}
+
+div.recipelist{
+    background-image: transparent;
+    color:white;
+}
+
+
+
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #fcdb03;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
